@@ -90,7 +90,4 @@ CREATE TABLE teachers (
 
 ---
 
-Dacă ai feedback sau sugestii pentru acest proiect, suntem deschiși să le auzim!
-
-
 **Mult succes!** 🚀
