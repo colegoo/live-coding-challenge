@@ -45,9 +45,9 @@ CREATE TABLE teachers (
 ## 🛠️ Cerințe Tehnice
 
 ### **Stack Recomandat**
-- **Frontend:** React, Vue, Angular, Laravel Blade, Django Templates, Rails ERB, Vanilla JS
+- **Frontend:** React, Vue, Laravel Blade, Django Templates, etc.
 - **Backend:** Orice MVC Framework (.NET, Node, Laravel, Spring, etc.)
-- **UI:** [Tailwind CSS](https://tailwindcss.com/) (sau alt framework CSS)
+- **UI:** [Tailwind CSS](https://tailwindcss.com/) (sau alt framework CSS modern)
 - **DB:** SQL (MySQL, PostgreSQL, SQLite, etc.)
 
 ### **Must Have**
