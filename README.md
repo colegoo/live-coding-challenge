@@ -82,11 +82,11 @@ CREATE TABLE teachers (
 
 ## 🎯 Evaluare
 
-| 🏆 **Categorie**       | **Criterii**                                                                                                                                              | **Pondere** |
-|------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------|-------------|
-| **Implementare tehnică** | - Cod curat și organizat<br>- Arhitectură pragmatică<br>- Validări și error handling<br>- Funcționalitate completă                                       | **40%**     |
+| 🏆 **Categorie**       | **Criterii**                                                                                                                                                     | **Pondere** |
+|------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------|
+| **Implementare tehnică** | - Cod curat și organizat<br>- Arhitectură pragmatică<br>- Validări și error handling<br>- Funcționalitate completă                                               | **40%**     |
 | **Frontend & UX**      | - Design modern și intuitiv<br>- Responsive pe mobile și desktop<br>- Componente reutilizabile<br>- Preview funcțional și atractiv<br>- Atenție la detalii UI/UX | **40%**     |
-| **Best Practices**     | - Git workflow profesionist<br>- README clar<br>- Coding standards                                                                                       | **20%**     |
+| **Best Practices**     | - Comunicare clară<br>- Coding standards                                                                                                                         | **20%**     |
 
 ---
 
