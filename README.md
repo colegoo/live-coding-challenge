@@ -1,10 +1,10 @@
 # 🚀 Live Coding Challenge: Mini-platformă de Onboarding pentru Profesori
 
-Proiectează și dezvoltă o platformă simplă de onboarding pentru profesori în aproximativ **o oră**, concentrându-te pe **clean code** și **UX**.
+Proiectează și dezvoltă o platformă simplă de onboarding pentru profesori în **90 de minute**, concentrându-te pe **clean code** și **UX**.
 
 ---
 
-## 📊 Structura DB
+## 📊 Structura DB (Exemplu)
 
 ```sql
 -- Profesor (Teacher)
@@ -12,7 +12,8 @@ CREATE TABLE teachers (
   id BIGINT AUTO_INCREMENT PRIMARY KEY,
   name VARCHAR(100) NOT NULL,
   email VARCHAR(100) NOT NULL,
-  subjects VARCHAR(255),          -- ex: "matematica,informatica"
+  subject VARCHAR(255),          -- ex: "matematica" / "informatica"
+  description TEXT,              -- descriere scurtă a anunțului
   hourly_rate DECIMAL(10,2),      -- tarif pe oră
   availability VARCHAR(255),      -- ex: "luni-vineri,09:00-17:00"
   created_at DATETIME NOT NULL DEFAULT CURRENT_TIMESTAMP
@@ -21,7 +22,7 @@ CREATE TABLE teachers (
 
 ---
 
-## 🎯 Cerințe Funcționale
+## 🎯 Cerințe
 
 ### 1. **Landing page simplă**
 - [Hero section](https://tailwindui.com/components/marketing/sections/heroes) minimal cu titlu și descriere
@@ -35,29 +36,20 @@ CREATE TABLE teachers (
 
 ### 3. **Pagină de profil cu informațiile salvate**
 - **Submit:** Salvare în DB
-- **Redirect:** Pagina de succes cu datele introduse
+- **Redirect:** Pagina de succes, unde se afișează datele introduse din baza de date
 
 ### **Bonus:**
 - **Responsiveness:** Design responsive pentru mobile pentru toate paginile
+- **Autentificare:** Implementare autentificare simplă cu email și parolă
 
 ---
 
-## 🛠️ Cerințe Tehnice
+## 🛠️ Stack Recomandat
 
-### **Stack Recomandat**
 - **Frontend:** React, Vue, Laravel Blade, Django Templates, etc.
 - **Backend:** Orice MVC Framework (.NET, Node, Laravel, Spring, etc.)
 - **UI:** [Tailwind CSS](https://tailwindcss.com/) (sau alt framework CSS modern)
 - **DB:** SQL (MySQL, PostgreSQL, SQLite, etc.)
-
-### **Must Have**
-- Cod curat, organizat
-- Validări de bază
-- Responsive design
-
-### **Nice to Have (Opțional)**
-- Error handling
-- Loading states
 
 ---
 
@@ -82,12 +74,15 @@ CREATE TABLE teachers (
 
 ## 🎯 Evaluare
 
-| 🏆 **Categorie**       | **Criterii**                                                                                                                                                     | **Pondere** |
-|------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------|
-| **Implementare tehnică** | - Cod curat și organizat<br>- Self-documented code (denumiri, comentarii clare și intuitive)<br>- Arhitectură pragmatică<br>- Validări și error handling<br>- Funcționalitate completă                                               | **40%**     |
-| **Frontend & UX**      | - Design modern și intuitiv<br>- Responsive pe mobile și desktop<br>- Componente reutilizabile<br>- Preview funcțional și atractiv<br>- Atenție la detalii UI/UX | **40%**     |
-| **Best Practices**     | - Comunicare clară<br>- Coding standards                                                                                                                         | **20%**     |
+| 🏆 **Categorie**       | **Criterii**                                                                                                                                                                    | **Pondere** |
+|------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------|
+| **Implementare tehnică** | - Cod curat și organizat, self-documented (denumiri intuitive, comentarii, etc.)<br>- Validări și error handling<br>- Funcționalitate completă | **40%**     |
+| **Frontend & UX**      | - Design modern și intuitiv<br>- Responsive pe mobile și desktop<br>- Atenție la detalii UI/UX                                                                                  | **40%**     |
+| **Best Practices**     | - Comunicare clară<br>- Coding standards                                                                                                                                        | **20%**     |
 
 ---
+
+Dacă ai feedback sau sugestii pentru acest proiect, suntem deschiși să le auzim!
+
 
 **Mult succes!** 🚀
