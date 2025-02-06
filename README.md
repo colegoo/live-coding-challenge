@@ -29,9 +29,9 @@ CREATE TABLE teachers (
 - Buton **"Înregistrare Profesor"**
 - Redirect pagina 2
 
-### Pagina 2. **Formular de înregistrare & creează primul anunț**
+### Pagina 2. **Formular de înregistrare profesor**
 - **Input-uri:** Nume, email, materie predată (dropdown), descriere anunț, tarif pe oră, program disponibilitate (text)
-- **Buton Submit:** Salvare în DB și redirect către pagina de profil
+- **Buton Submit:** Salvare în DB
 - Redirect pagina 3
 
 ### Pagina 3. **Pagină de success**
