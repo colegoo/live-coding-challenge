@@ -24,30 +24,28 @@ CREATE TABLE teachers (
 
 ## 🎯 Cerințe
 
-### 1. **Landing page simplă**
+### Pagina 1. **Landing page simplă**
 - [Hero section](https://tailwindui.com/components/marketing/sections/heroes) minimal cu titlu și descriere
 - Buton **"Înregistrare Profesor"**
+- Redirect pagina 2
 
-### 2. **Formular de înregistrare & creează primul anunț**
-- **Input-uri:** Nume, email, materie predată (dropdown), descriere anunț, tarif pe oră, program disponibilitate (text sau time picker simplu)
+### Pagina 2. **Formular de înregistrare & creează primul anunț**
+- **Input-uri:** Nume, email, materie predată (dropdown), descriere anunț, tarif pe oră, program disponibilitate (text)
 - **Buton Submit:** Salvare în DB și redirect către pagina de profil
-- **Preview (bonus):** În timp real sub formular care arată cum va apărea anunțul
-- **Validări (bonus):** Validări de bază pentru input-uri
+- Redirect pagina 3
 
-### 3. **Pagină de profil cu informațiile salvate**
-- **Submit:** Salvare în DB
-- **Redirect:** Pagina de succes, unde se afișează datele introduse din baza de date
+### Pagina 3. **Pagină de success**
+- **Preview date:** Afișează datele salvate de la pasul precedent (din baza de date)
 
 ### **Bonus:**
 - **Responsiveness:** Design responsive pentru mobile pentru toate paginile
-- **Autentificare:** Implementare autentificare simplă cu email și parolă
 
 ---
 
 ## 🛠️ Stack Recomandat
 
-- **Frontend:** React, Vue, Laravel Blade, Django Templates, etc.
-- **Backend:** Orice MVC Framework (.NET, Node, Laravel, Spring, etc.)
+Folosește framework-ul web cu care te simți cel mai confortabil, atat pe backend, cât și pe frontend.
+
 - **UI:** [Tailwind CSS](https://tailwindcss.com/) (sau alt framework CSS modern)
 - **DB:** SQL (MySQL, PostgreSQL, SQLite, etc.)
 
